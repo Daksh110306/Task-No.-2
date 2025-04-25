@@ -1,0 +1,43 @@
+1. What is the purpose of EDA?
+Ans: Understand data and its structure.
+Identify patterns, trends, and anomalies.
+Prepare data for further analysis or modeling.
+Formulate hypotheses based on insights.
+
+2. How do boxplots help in understanding a dataset?
+Ans: Show data distribution (median, IQR, outliers).
+Detect outliers and visualize spread of data.
+Compare groups easily.
+
+3. What is correlation and why is it useful?
+Ans: Measures the relationship between two variables.
+Correlation values: +1 (positive), -1 (negative), 0 no correlation).
+Helps identify relationships between features and target.
+
+4. How do you detect skewness in data?
+Ans: Visualize using histograms/boxplots.
+Calculate skewness value (Pandas .skew()).
+Skewed data may require transformations (log, Box-Cox).
+
+5. What is multicollinearity?
+Ans: Occurs when independent variables are highly correlated.
+Leads to unstable coefficient estimates in regression models.
+Detected via correlation matrix or Variance Inflation Factor (VIF).
+
+6. What tools do you use for EDA?
+Ans: Pandas for data manipulation.
+Matplotlib/Seaborn for visualization.
+Plotly for interactive visuals.
+NumPy for numerical operations.
+Jupyter Notebooks for interactive analysis.
+
+7. Can you explain a time when EDA helped you find a problem?
+Ans: Found missing values in the 'Age' column during customer data analysis.
+Missing values were non-random and correlated with another feature.
+Addressing this improved the model's accuracy.
+
+8. What is the role of visualization in ML?
+Ans: Helps explore and understand data.
+Assists in feature selection and model evaluation.
+Communicates results effectively to stakeholders.
+
